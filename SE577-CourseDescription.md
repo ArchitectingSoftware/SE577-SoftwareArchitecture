@@ -13,7 +13,7 @@ In this course, students will learn to analyze, express, and evaluate the archit
 4. Run in potentially hostile or untrusted environments,
 5. Promote design flexibility that enables rapid adoption of user-driven changes.
 
-The course will not use a textbook - lectures will be formulated from material developed in academia and industry on Software Architecture and Software Design.  References to all couse materials will be provided by the instructor. We will be investigating architecture best practices though a number of modules that dive into many aspects of modern software design:
+The course will not use a textbook - lectures will be formulated from material developed in academia and industry on Software Architecture and Software Design.  References to all course materials will be provided by the instructor. We will be investigating architecture best practices though a number of modules that dive into many aspects of modern software design:
 
 1. Introduction to Software Architecture
 2. Modern Architecture Patterns & Styles I
@@ -24,7 +24,7 @@ The course will not use a textbook - lectures will be formulated from material d
 7. Reactive Architectures
 8. Cloud Native Architectures (including cloud native runtimes such as docker/kubernetes)
 9.  DDD to Discover Architecture Components; Data Mesh Architectures
-10. Project Presentations
+10. Real world software architecture considerations
 
 ### Course Structure
 
