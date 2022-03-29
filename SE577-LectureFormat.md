@@ -15,3 +15,11 @@ The technical components we will be covering in the first half of this course in
 * Introduction to container coordination with Docker Compose and Kubernetes
 
 I will be updating this page from time to time with additional resources such as video tutorials available on YouTube for students who need additional help.
+
+### Supplemental Online Resources
+| Topic | Links |
+|:-----|-----:|
+|Typescript | https://www.youtube.com/watch?v=BwuLxPH8IDs |
+|Vue.js (SPA) | https://www.youtube.com/watch?v=JfI5PISLr9w
+| Web APIs (kos.js) | https://www.youtube.com/watch?v=bSVfmDbAsQg&list=PL1sZ2OJpPmWZL0iwsy5ekCMHQ-lx7zysD
+| Web APIs (golang-gin)| https://www.youtube.com/watch?v=RkmvVFZJJvs |
