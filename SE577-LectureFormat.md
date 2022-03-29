@@ -17,9 +17,14 @@ The technical components we will be covering in the first half of this course in
 I will be updating this page from time to time with additional resources such as video tutorials available on YouTube for students who need additional help.
 
 ### Supplemental Online Resources
+Please note that the below links are just some videos that i have either watched or quickly previewed.  Each one has a lot of resources on their corresponding web pages.  Plus, im hopeful that all of these things are not totally new to everybody. 
+
 | Topic | Links |
 |:-----|:-----|
 |Typescript | https://www.youtube.com/watch?v=BwuLxPH8IDs |
 |Vue.js (SPA) | https://www.youtube.com/watch?v=JfI5PISLr9w
 | Web APIs (kos.js) | https://www.youtube.com/watch?v=bSVfmDbAsQg&list=PL1sZ2OJpPmWZL0iwsy5ekCMHQ-lx7zysD
 | Web APIs (golang-gin)| https://www.youtube.com/watch?v=RkmvVFZJJvs |
+|Docker | https://www.youtube.com/watch?v=zJ6WbK9zFpI |
+|Docker Compose | https://www.youtube.com/watch?v=zJ6WbK9zFpI |
+|Kubernetes | https://www.youtube.com/watch?v=s_o8dwzRlu4 |
