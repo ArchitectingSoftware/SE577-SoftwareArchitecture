@@ -53,7 +53,7 @@ Student final grades will be derived by the approximate scale:
 | Course Component | Approximate Weight |
 | :--------------- | -----------------: |
 | Individual assignments based on research papers, video reviews, etc | 40%|
-| Team assignments, Project creation, and project presentation  | 50% |
+| Individual Project with Multiple Deliverables | 50% |
 | Class Participation | 10% |
 
 Note that all course deliverables will be submitted via the course Blackboard site and not email. 
