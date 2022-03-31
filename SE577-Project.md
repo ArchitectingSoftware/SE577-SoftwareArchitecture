@@ -22,7 +22,7 @@ This project will have deliverables approximately every two weeks and allow you 
 
   - Create a file called `Release3.md` and provide a section on how to run your application with the docker component, a section showing the architectural model created above.  Also provide a short narratives about the state of the current systems architecture.
 
-[W8]:(#W8)
+[w8]:(#w8)
 - **Week 8 Deliverable:** Like normal, create the `proj-release-4` branch for the basis of this weeks changes branch. We are going to wire up the application to github. 
 
   - Adjust your application to work directly with Github.  Go to your github account via the user interface and create a simple gist showing a 3 line “hello world” program in your favorite programming language. If you don’t know how to do that info is here: https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists
