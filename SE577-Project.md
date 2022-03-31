@@ -5,13 +5,16 @@ The course project will involve building a web based, cloud native, front end to
 This project will have deliverables approximately every two weeks and allow you to play all roles that a software architect normally does in an industrial project - Create the architecture, shape the design, and support the implementation. 
 
 
-
+[W2]: #W2
 - **Week 2 deliverable:** Setup your GitHub repo for course, ensure instructor and TA are added for access (or just make this a public repository).  Create a top level `readme.md` file.  Create a branch `week-1`. The `readme.md` in Week1 should contain a few sentences introducing yourself and describing what you want to get out of this course. Submit on blackboard a link to your repository.  **Learning objective:**  Ensuring you have a github account and know the basics of using it including setting up a new repo, branching and pushing code.
 
+[W3]: #W3
 - **Week 3 Deliverable:** Create a basic user interface mockup of your project, demonstrating the basic capabilities of a single page web (SPA) application.  The goal is to create a basic shell, features can be either hard coded or mocked out – e.g, a page just saying “viewing my repositories goes here”.  Submit under a branch called – `proj-release-1`.  In this branch create a file called `ProjectStub.md` that contains a basic architecture diagram showing the components and their relationships of a single page application (SPA).  To submit, go to blackboard and submit a link to your branch.
 
+[W5]: #W5
 - **Week 5 Deliverable:** Take the code you created in Week 3 and create a simple microservice to simulate listing repositories in git.  Pull the code from the `proj-Release-1` branch and create a new branch called `proj-Release-2`.  Your interface will now call this service and render the results in the web interface.  Think about the data structure that you would use, and the microservice interface (e.g., attributes that would be returned for a collection of repositories).  To keep things easy, instead of using a database (which you could add as a stretch objective), think about how you can express this in an external config file in YAML format, and then parse this file into an in-memory data structure that your microservice can use to return data to your web application.  Create a file called `Release2.md` and provide in Section 1 appropriate instructions to run and test your application.
 
+[W6]: #W6
 - **Week 6 Deliverable:**  Take the code from `proj-release-2` and create a new branch `proj-Release-3`.  There will be few simple updates to this release
   -  Take the microservice that you built in the previous release and package and host it in a docker container.  Make sure you provide your `Dockerfile` in the repo, and either a script or a makefile to create the `Dockerfile`.  Update the user interface to work with the service running under docker.
 
@@ -19,6 +22,7 @@ This project will have deliverables approximately every two weeks and allow you 
 
   - Create a file called `Release3.md` and provide a section on how to run your application with the docker component, a section showing the architectural model created above.  Also provide a short narratives about the state of the current systems architecture.
 
+[W8]: #W8
 - **Week 8 Deliverable:** Like normal, create the `proj-release-4` branch for the basis of this weeks changes branch. We are going to wire up the application to github. 
 
   - Adjust your application to work directly with Github.  Go to your github account via the user interface and create a simple gist showing a 3 line “hello world” program in your favorite programming language. If you don’t know how to do that info is here: https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists
@@ -33,6 +37,7 @@ This project will have deliverables approximately every two weeks and allow you 
 
   - Submit on blackboard a link to the `proj-release-4` branch.
 
+[W11]: #W11
 -  **Final Project Deliverable:** Weeks 9 and 10 will be focused on finishing your project.  Think about a few features that you want to play with in your application via the github API.  It can be exploring repos, or commits within a repo, user information, etc.  Create the  `proj-final` branch.  Write some code to clean up your application and to implement the features that you thought about.
    
     - Add a `FinalRelease.md` file.  This file should have everything described that is required to build and run your final project, including scripts if necessary.  The file should also contain an **architecture description** of your project – this includes models, architecture decisions, description of quality attributes, etc
