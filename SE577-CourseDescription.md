@@ -15,10 +15,10 @@ In this course, students will learn to analyze, express, and evaluate the archit
 
 The course will not use a textbook - lectures will be formulated from material developed in academia and industry on Software Architecture and Software Design.  References to all course materials will be provided by the instructor. We will be investigating architecture best practices though a number of modules that dive into many aspects of modern software design:
 
-1. Introduction to Software Architecture
-2. Modern Architecture Patterns & Styles 
-3. Software Architecture Quality Attributes
-4. Software Architecture Modeling and Documentation (Informal, UML, C4)
+1. Introduction to Software Architecture - Definition, Scope, Significance & Role
+2. Requirements for Software Architecure - Requirments, Constraints & Quality Attributes 
+3. Architecture Styles
+4. Software Architecture Modeling and Documentation (Informal, UML, C4) - Components, Connectors & Documentation
 5. Service-Oriented, Microservice, and API Architectures 
 6. Modern Web Architectures
 7. Reactive Architectures
