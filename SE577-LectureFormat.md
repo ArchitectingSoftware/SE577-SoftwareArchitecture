@@ -25,6 +25,7 @@ Please note that the below links are just some videos that i have either watched
 |Vue.js (SPA) | https://www.youtube.com/watch?v=JfI5PISLr9w
 | Web APIs (kos.js) | https://www.youtube.com/watch?v=bSVfmDbAsQg&list=PL1sZ2OJpPmWZL0iwsy5ekCMHQ-lx7zysD
 | Web APIs (golang-gin)| https://www.youtube.com/watch?v=RkmvVFZJJvs |
+| Web APIs (fastify.js) | https://www.youtube.com/watch?v=Lk-uVEVGxOA |
 |Docker | https://www.youtube.com/watch?v=zJ6WbK9zFpI |
 |Docker Compose | https://www.youtube.com/watch?v=zJ6WbK9zFpI |
 |Kubernetes | https://www.youtube.com/watch?v=s_o8dwzRlu4 |
