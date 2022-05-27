@@ -33,6 +33,8 @@ This project will have deliverables approximately every two weeks and allow you 
 
   .. Submit on blackboard a link to the `proj-release-4` branch.
 
+**Please note that GitHub tries to help you out with keeping tokens secure.  If you use an .env file like I did to pass a github auth token to your project, and you check it into github, github will warn you and deactivate your token.  So for this deliverable please also submit in blackbord a github token that we can use to test out your project and instructions for how to pass this information to your code, for example, via an environent file, or via setting up a .env file.**
+
 - [[final]] **Final Project Deliverable:** Weeks 9 and 10 will be focused on finishing your project.  Think about a few features that you want to play with in your application via the github API.  It can be exploring repos, or commits within a repo, user information, etc.  Create the  `proj-final` branch.  Write some code to clean up your application and to implement the features that you thought about.
    
     .. Add a `FinalRelease.md` file.  This file should have everything described that is required to build and run your final project, including scripts if necessary.  The file should also contain an **architecture description** of your project – this includes models, architecture decisions, description of quality attributes, etc
