@@ -10,11 +10,11 @@ One of the primary objectives of this course is to obtain realistic hands-on exp
 
 The stock project is designed to help students incrementally build a prototype application that covers depth of the concepts we will be covering in class.  The project is intended to focus on software architecture concepts, and not on developing a lot of code. 
 
-Realizing that many of our full time students work in research labs, or in industry, I am also providing you with the opportunity to roll-your-own project that better aligns to areas of your personal interest. Note your project does not have the same architecture as the stock course project - it just has to have an interesting software architecture.
+Realizing that many of our full time students work in research labs, or in industry; I am also providing you with the opportunity to roll-your-own project that better aligns to areas of your personal interest. Note your project does not have the same architecture as the stock course project - it just has to have an interesting software architecture.
 
 ### Deliverables
 
-If you choose to create your own project, you will need to start by **creating proposal** that outlines your project objectives and a schedule of deliverables.  The purpose of this proposal is so that we can get on the same page on your project, agree with proposed deliverables, and that I am comfortable with building your proposed project is both realistic and aligns to having an interesting software architecture.  If you want to go this route, by the end of week 2 you send me a proposal for your project. This proposal must include:
+If you choose to create your own project, you will need to start by **creating proposal** that outlines your project objectives and a schedule of deliverables.  The purpose of this proposal is so that we can get on the same page on your project, agree with proposed deliverables, and that I am comfortable with building your proposed project is both realistic and aligns to having an interesting software architecture.  If you want to go this route, **by the end of week 2** you will be required to send me a proposal for your project. This proposal must include:
 
 1. An abstract describing the functional objectives of your project.  In other words what will your project do once its constructed?
     
