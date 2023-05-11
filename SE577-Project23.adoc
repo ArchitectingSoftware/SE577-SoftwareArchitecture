@@ -1,0 +1,36 @@
+== SE577 Course Project (v2024)
+
+Note:  This is the stock course project.  If you want to "roll-your-own", see the directions on defining a custom course project.  See - https://github.com/ArchitectingSoftware/SE577-SoftwareArchitecture/blob/main/SE577-RollYourOwnProject.md[Roll Your Own Project]
+
+The course project will involve building a web based, cloud native, front end to GitHub.   GitHub has some pretty good APIs to play with, and you will enrich your front end with some of your own web services.  The project will be developed incrementally over the entire course consisting of several deliverables along the way.
+
+This project will have deliverables approximately every two weeks and allow you to play all roles that a software architect normally does in an industrial project - Create the architecture, shape the design, and support the implementation. 
+
+
+- [[w2]] **Week 2 deliverable:** Setup your GitHub repo for course, ensure instructor and TA are added for access (or just make this a public repository).  Create a top level `readme.md` file.  Create a branch `week-1`. The `readme.md` in Week1 should contain a few sentences introducing yourself and describing what you want to get out of this course. Submit on blackboard a link to your repository.  **Learning objective:**  Ensuring you have a github account and know the basics of using it including setting up a new repo, branching and pushing code.
+
+- [[w3]] **Week 3 Deliverable:** Create a basic user interface mockup of your project, demonstrating the basic capabilities of a single page web (SPA) application.  The goal is to create a basic shell, features can be either hard coded or mocked out – e.g, a page just saying “viewing my repositories goes here”.  Submit under a branch called – `proj-release-1`.  In this branch create a file called `ProjectStub.md` that contains a basic architecture diagram showing the components and their relationships of a single page application (SPA).  To submit, go to blackboard and submit a link to your branch.  This submission should just mock out some simple navigation - for example a page saying "login goes here", a page saying "info about me", a page saying "list all of my repos", and a page saying "repo details will go here".  Note the pages dont need to have any functionality beyond some placeholder text.  Ideally, you would also implement the router to navigate between pages.  Some helpful tips:  You can close this repo as a scaffold:  https://github.com/ArchitectingSoftware/se577-web-demo.  Note individual pages could/should be placed in the `src/pages/AppPages` folder.  To activate routes you can modify the `src/router/routes.ts` file.  See how much you can get done, we will spend time discussing. 
+
+- [[w5]] **Week 5 Deliverable:** Take the code you created in Week 3 and create a simple microservice to simulate listing repositories in git.  Pull the code from the `proj-Release-1` branch and create a new branch called `proj-Release-2`.  Your interface will now call this service and render the results in the web interface.  Think about the data structure that you would use, and the microservice interface (e.g., attributes that would be returned for a collection of repositories).  To keep things easy, instead of using a database (which you could add as a stretch objective), think about how you can express this in an external config file in YAML format, and then parse this file into an in-memory data structure that your microservice can use to return data to your web application.  Create a file called `Release2.md` and provide in Section 1 appropriate instructions to run and test your application.
+
+- [[w6]] **Week 6 Deliverable:**  Take the code from `proj-release-2` and create a new branch `proj-Release-3`.  There will be few simple updates to this release.  NOTE:  Below I am suggesting creating a "gist" display feature for this release.  You may pick any GitHub function that you want, you just need to show proper integration with GitHub via your API.
+
+    .. Adjust your application to work directly with Github.  Go to your github account via the user interface and create a simple gist showing a 3 line “hello world” program in your favorite programming language. If you don’t know how to do that info is here: https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists
+
+    .. Ensure you are familiar with the github API – top level page is here: https://docs.github.com/en/rest,  Read this to ensure you understand how to authenticate with the github api: https://docs.github.com/en/rest/guides/basics-of-authentication, another good reference is here: https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api
+
+    .. Carefully follow the helper repository I sent out to all here for the proper way to integrate GitHub into your application securely - https://github.com/ArchitectingSoftware/se577-project-setup/tree/web-proxy.  Note you will need to create your own GitHub personal access token.  To do this, google for directions.  The short of it is you go to your user icon on the upper right of the GH main screen, hit the drop down, pick settings, on the left side nav that appears pick "developer settings", then "Personal access tokens", and finally Fine-grained tokens.  From there you can press the "Generate New Token" button and set your token options.  **MAKE SURE YOU COPY THE TOKEN THAT IS CREATED, YOU ONLY GET TO SEE IT ONCE.  After that create a .env file and put that token into the file.  Also, as I mentioned, make sure you put the .env file into your .gitignore file.  If you do not do this, GitHub will detect the token in your repo and disable it to protect unauthorized access to your GitHub account.  THIS MEANS YOU ALSO NEED TO PROVIDE ME WITH YOUR GITHUB ACCESS TOKEN WHEN YOU SUBMIT YOUR PROJECT IN BLACKBOARD**
+
+
+
+- [[w8]] **Week 8 Deliverable:** Like normal, create the `proj-release-4` branch for the basis of this weeks changes branch. 
+
+    .. Create an architectural model of the of your system – UML or C4 is fine.  Put this model into the root of your project in the `proj-release-4` branch.  You may do it using markdown or add to your repo as a PDF file. 
+
+
+
+- [[final]] **Final Project Deliverable:** Weeks 9 and 10 will be focused on finishing your project.  Think about a few features that you want to play with in your application via the github API.  It can be exploring repos, or commits within a repo, user information, etc.  Create the  `proj-final` branch.  Write some code to clean up your application and to implement the features that you thought about.
+   
+    .. Add a `FinalRelease.md` file.  This file should have everything described that is required to build and run your final project, including scripts if necessary.  The file should also contain an **architecture description** of your project – this includes models, architecture decisions, description of quality attributes, etc
+
+    .. Submit the final project to blackboard with a link to the release branch.
